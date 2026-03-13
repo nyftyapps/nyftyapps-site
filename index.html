@@ -3,111 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nyfty Apps - Legal & Support</title>
+    <title>Lateless by Nyfty Apps</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        html { scroll-behavior: smooth; }
-    </style>
 </head>
-<body class="bg-gray-50 text-gray-800 font-sans antialiased">
+<body class="bg-gray-50 text-gray-800 font-sans antialiased flex flex-col min-h-screen">
 
     <nav class="bg-white shadow-sm sticky top-0 z-50">
         <div class="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
-            <h1 class="font-bold text-xl tracking-tight text-blue-600">Nyfty Apps</h1>
+            <a href="index.html" class="font-bold text-xl tracking-tight text-blue-600">Nyfty Apps</a>
             <div class="space-x-6 text-sm font-medium">
-                <a href="#support" class="hover:text-blue-600 transition">Support</a>
-                <a href="#privacy" class="hover:text-blue-600 transition">Privacy Policy</a>
-                <a href="#terms" class="hover:text-blue-600 transition">Terms of Service</a>
+                <a href="support.html" class="hover:text-blue-600 transition">Support</a>
+                <a href="privacy.html" class="hover:text-blue-600 transition">Privacy</a>
+                <a href="terms.html" class="hover:text-blue-600 transition">Terms</a>
             </div>
         </div>
     </nav>
 
-    <header class="bg-blue-600 text-white py-16">
-        <div class="max-w-5xl mx-auto px-4 text-center">
-            <h2 class="text-3xl font-bold mb-2">Welcome to Nyfty Apps</h2>
-            <p class="text-blue-100 text-lg">The official home and support center for the Lateless app.</p>
-        </div>
-    </header>
+    <main class="flex-grow">
+        <header class="bg-blue-600 text-white py-20">
+            <div class="max-w-4xl mx-auto px-4 text-center">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4">Conquer Time Blindness.</h2>
+                <p class="text-blue-100 text-xl mb-8">Lateless is the smart iOS app designed to help you master your schedule, visualize your time, and never run late again.</p>
+                <a href="#" class="bg-white text-blue-600 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-gray-100 transition duration-300">
+                    Coming Soon to iOS
+                </a>
+            </div>
+        </header>
 
-    <main class="max-w-4xl mx-auto px-4 py-12 space-y-16">
-
-        <section id="support" class="bg-white p-8 rounded-lg shadow-sm border border-gray-100">
-            <h3 class="text-2xl font-bold mb-4 border-b pb-2">App Support</h3>
-            <p class="mb-6 text-gray-600">Need help with Lateless? We are here for you. Please reach out to us using the contact information below. We typically respond within 24-48 hours.</p>
-            
-            <div class="grid md:grid-cols-2 gap-6 bg-gray-50 p-6 rounded-md">
-                <div>
-                    <h4 class="font-semibold text-gray-900">Contact Info</h4>
-                    <p class="mt-2 text-sm"><strong>Email:</strong> <a href="mailto:[Your Support Email]" class="text-blue-600 hover:underline">[Your Support Email]</a></p>
-                    <p class="mt-1 text-sm"><strong>Phone:</strong> [Your Northwest Phone Number]</p>
-                </div>
-                <div>
-                    <h4 class="font-semibold text-gray-900">Business Address</h4>
-                    <p class="mt-2 text-sm text-gray-600">
-                        Nyfty Apps / GRHS Consulting LLC<br>
-                        3322 US Highway 22, Suite [Insert Your Suite #]<br>
-                        Branchburg, NJ 08876
-                    </p>
-                </div>
+        <section class="max-w-5xl mx-auto px-4 py-16 grid md:grid-cols-3 gap-8 text-center">
+            <div class="p-6 bg-white rounded-lg shadow-sm border border-gray-100">
+                <h3 class="text-xl font-bold mb-2 text-gray-900">Visual Timers</h3>
+                <p class="text-gray-600">See your time slipping away in an intuitive, stress-free interface.</p>
+            </div>
+            <div class="p-6 bg-white rounded-lg shadow-sm border border-gray-100">
+                <h3 class="text-xl font-bold mb-2 text-gray-900">Smart Alerts</h3>
+                <p class="text-gray-600">Get gentle nudges before you need to leave, tailored to your routine.</p>
+            </div>
+            <div class="p-6 bg-white rounded-lg shadow-sm border border-gray-100">
+                <h3 class="text-xl font-bold mb-2 text-gray-900">Privacy First</h3>
+                <p class="text-gray-600">Your schedule stays on your device. We don't mine your personal data.</p>
             </div>
         </section>
-
-        <section id="privacy" class="bg-white p-8 rounded-lg shadow-sm border border-gray-100 prose max-w-none">
-            <h3 class="text-2xl font-bold mb-2">Privacy Policy</h3>
-            <p class="text-sm text-gray-500 mb-6">Last Updated: March 12, 2026</p>
-
-            <h4 class="font-bold mt-4">1. Introduction</h4>
-            <p>GRHS Consulting LLC ("Nyfty Apps") respects your privacy. This policy explains how we handle information for the Lateless app.</p>
-
-            <h4 class="font-bold mt-4">2. Data We Collect</h4>
-            <ul class="list-disc pl-5 space-y-1">
-                <li><strong>Personal Data:</strong> We may collect your name or email address if you contact support or sign up for an account.</li>
-                <li><strong>Usage Data:</strong> We collect anonymized diagnostic data (crash logs, performance metrics) to improve the App.</li>
-                <li><strong>Sensitive Data:</strong> Lateless does not collect precise geolocation, biometric data, or health information unless explicitly requested for a specific feature, for which we will obtain your opt-in consent as required by the New Jersey Data Privacy Act (NJDPA).</li>
-            </ul>
-
-            <h4 class="font-bold mt-4">3. How We Use Data</h4>
-            <p>We use collected data solely for providing and maintaining App functionality, responding to your support inquiries, and improving App performance. We do not sell your personal data to third parties or use it for targeted advertising.</p>
-
-            <h4 class="font-bold mt-4">4. Data Deletion & Your Rights</h4>
-            <p>Under the NJDPA and other global privacy laws, you have the right to request a copy of the data we hold about you, request corrections, or request deletion. You can initiate a deletion request within the App settings or by emailing our support team. You may also opt-out of non-essential data collection at any time.</p>
-
-            <h4 class="font-bold mt-4">5. Third-Party Services</h4>
-            <p>We may use third-party SDKs to help perform tasks on our behalf. These partners are obligated not to disclose or use your information for any other purpose.</p>
-        </section>
-
-        <section id="terms" class="bg-white p-8 rounded-lg shadow-sm border border-gray-100 prose max-w-none">
-            <h3 class="text-2xl font-bold mb-2">Terms of Service</h3>
-            <p class="text-sm text-gray-500 mb-6">Last Updated: March 12, 2026</p>
-
-            <h4 class="font-bold mt-4">1. Acceptance of Terms</h4>
-            <p>By downloading or using Lateless (the "App"), provided by GRHS Consulting LLC d/b/a Nyfty Apps ("we," "us," or "our"), you agree to be bound by these Terms of Service. If you do not agree, do not use the App.</p>
-
-            <h4 class="font-bold mt-4">2. Description of Service</h4>
-            <p>Lateless is a productivity tool designed to assist individuals with time management and time blindness. The App is provided on an "as-is" and "as-available" basis.</p>
-
-            <h4 class="font-bold mt-4">3. Subscriptions and Payments</h4>
-            <p>If you purchase a subscription, billing is handled via the Apple App Store or Google Play Store. You may cancel your subscription at any time through your device's store settings. All refund requests must be directed to the respective App Store.</p>
-
-            <h4 class="font-bold mt-4">4. Discontinuation of Service</h4>
-            <p>We reserve the right to modify or discontinue the App. In the event of a permanent discontinuation, we will provide at least 30 days' notice. We are not liable for any loss of data or convenience. Pro-rated refunds for active subscriptions will be handled according to the App Store’s standard policies.</p>
-
-            <h4 class="font-bold mt-4">5. Limitation of Liability</h4>
-            <p>To the maximum extent permitted by law, GRHS Consulting LLC shall not be liable for any indirect, incidental, or consequential damages resulting from your use or inability to use the App.</p>
-
-            <h4 class="font-bold mt-4">6. Governing Law</h4>
-            <p>These terms are governed by the laws of the State of New Jersey, without regard to its conflict of law principles.</p>
-
-            <h4 class="font-bold mt-4">7. Dispute Resolution and Binding Arbitration</h4>
-            <p><strong>A. Mandatory Arbitration:</strong> You and GRHS Consulting LLC agree that any dispute or claim arising out of these Terms will be settled by binding arbitration, rather than in court.</p>
-            <p><strong>B. Class Action Waiver:</strong> You and GRHS Consulting LLC agree that each may bring claims against the other only in your individual capacity, and not as a plaintiff or class member in any purported class or representative proceeding.</p>
-            <p><strong>C. Small Claims Court:</strong> Either party may bring an individual action in small claims court in Bergen County, New Jersey, if the claim qualifies.</p>
-            <p><strong>D. Severability:</strong> If any provision of these Terms is found to be unenforceable, that provision shall be limited so that these Terms shall otherwise remain in full force and effect.</p>
-        </section>
-
     </main>
 
-    <footer class="bg-gray-900 text-gray-400 py-8 text-center text-sm">
+    <footer class="bg-gray-900 text-gray-400 py-8 text-center text-sm mt-auto">
         <div class="max-w-5xl mx-auto px-4">
             <p>&copy; 2026 Nyfty Apps. Lateless is a product of GRHS Consulting LLC, a New Jersey Limited Liability Company.</p>
         </div>
